@@ -4,27 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>0x00</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 64 64'%3E%3Crect x='4' y='4' width='56' height='56' rx='8' fill='%23000000' stroke='%2337373f' stroke-width='4'/%3E%3C/svg%3E">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="laugh-container"></div>
-    <div class="noise-overlay"></div>
 
     <main class="card-container">
         <div class="glass-card">
             <header class="profile-header">
                 <div class="avatar-glitch"></div>
-                <h1 class="username">unquible</h1>
+                <h1 class="username glitch" data-text="AXK">AXK</h1>
                 <div class="audio-visualizer">
                     <span></span><span></span><span></span><span></span><span></span>
                 </div>
-                <p class="bio">cybersecurity / exploits / anarchy</p>
+                <p class="bio">OSINT / OPSEC / CYBERSECURITY</p>
             </header>
 
             <div class="links-list">
-                <a href="https://t.me/txdeath_bot" target="_blank" class="link-item">
-                    <span class="link-text">TX PROJECT</span>
+                <a href="https://t.me/txrework" target="_blank" class="link-item">
+                    <span class="link-text">TX REWORK</span>
                     <span class="link-icon">↗</span>
                 </a>
 
@@ -39,13 +38,17 @@
                 </a>
 
                 <a href="https://t.me/unquible" target="_blank" class="link-item highlight">
-                    <span class="link-text">0xCONTACT</span>
+                    <span class="link-text">DIRECT</span>
                     <span class="link-icon">@</span>
                 </a>
             </div>
             
             <div class="card-footer">
-                <span class="status-dot"></span> <span id="hex-timer">UID: 0 // INIT...</span>
+                <span class="status-dot"></span>
+                <span
+                    class="status-text"
+                    data-text="And if all of this is only a figment of imagination, then any act of mine is forgivable from this moment on."
+                ></span>
             </div>
         </div>
     </main>
