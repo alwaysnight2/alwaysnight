@@ -254,6 +254,17 @@ body::after {
     border-color: rgba(212, 212, 216, 0.95);
 }
 
+.xane-link .link-text {
+    color: #ef4444; /* Red color */
+    text-shadow: 0 0 10px rgba(239, 68, 68, 0.8), 
+                 0 0 20px rgba(239, 68, 68, 0.3);
+}
+
+.xane-link:hover {
+    border-color: rgba(239, 68, 68, 0.8) !important;
+    box-shadow: 0 0 15px rgba(239, 68, 68, 0.2);
+}
+
 .card-footer {
     position: relative;
     z-index: 1;
